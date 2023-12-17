@@ -1,0 +1,38 @@
+n=int(input("Enter the number"))
+
+def sumof():
+    ans=0
+    for i in range (1,n):
+        ans+=i
+    print(ans)       
+sumof()
+
+
+def natural(n):
+    ans=0
+    for i in range (1,n):
+        ans+=i
+    print("the sum : ",ans)
+        
+a=int(input("enter"))
+natural(a)
+
+
+def natural_1( ):
+    ans=0
+    for i in range (1,10):
+        ans+=i
+        return ans
+        
+print(natural_1())
+
+
+def natural_2(d,c):
+    ans=0
+    for d in range (d,c):
+        ans+=d
+        return ans
+d=int(input("Enter")) 
+c=int(input("Enter")) 
+     
+print(natural_2(d,c))

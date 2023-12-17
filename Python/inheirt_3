@@ -1,0 +1,15 @@
+#multilevel inheirtance
+class A:
+    def a(self):
+        print("disha")
+class B(A):
+    def b(self):
+        print("computer")
+class C(B):
+    def c(self):
+        print("insitiute")
+        
+c1=C()
+c1.a()
+c1.b()
+c1.c()

@@ -1,0 +1,5 @@
+fileptr=open("myfile_1.txt","r")
+con=fileptr.read()
+print(type(con))
+print(con)
+fileptr.close()

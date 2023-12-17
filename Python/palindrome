@@ -1,0 +1,8 @@
+# n=input("Enter the number")
+# p=str(n)[::-1]
+# print(p)
+# if p==n:
+#     print("yes")
+# else:
+#     print("no")
+

@@ -1,0 +1,9 @@
+d={
+    1:1,2:4,3:9,4:16
+}
+print(d)
+print(d[1])
+print(type(d))
+print(len(d))
+d[1]=34
+print(d)
